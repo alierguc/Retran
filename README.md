@@ -1,6 +1,14 @@
 # Retran \ Exporting - Converting
 ### 
 
+![Nuget](https://badgen.net/nuget/v/Retran)
+[![GitHub issues](https://img.shields.io/github/issues/alierguc/Retran)](https://github.com/alierguc/Retran/issues)
+[![GitHub forks](https://img.shields.io/github/forks/alierguc/retran?style=social&label=Fork&maxAge=2592000)](https://github.com/alierguc/Retran)
+[![GitHub stars](https://img.shields.io/github/stars/alierguc/retran?style=social&label=Star&maxAge=2592000)](https://github.com/alierguc/Retran)
+[![GitHub watchers](https://img.shields.io/github/watchers/alierguc/retran?style=social&label=Watch&maxAge=2592000)](https://github.com/alierguc/Retran)
+
+
+
 
 ![alt text](https://github.com/alierguc/git-raw/blob/master/retran_logo_500x500.png?raw=true)
 
