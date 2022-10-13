@@ -1,0 +1,12 @@
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\bin\Debug\net6.0\RetranProcess.deps.json
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\bin\Debug\net6.0\RetranProcess.dll
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\bin\Debug\net6.0\RetranProcess.pdb
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\RetranProcess.csproj.AssemblyReference.cache
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\RetranProcess.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\RetranProcess.AssemblyInfoInputs.cache
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\RetranProcess.AssemblyInfo.cs
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\RetranProcess.csproj.CoreCompileInputs.cache
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\RetranProcess.dll
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\refint\RetranProcess.dll
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\RetranProcess.pdb
+C:\Users\alier\Desktop\Retran\Retran\RetranProcess\obj\Debug\net6.0\ref\RetranProcess.dll

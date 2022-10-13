@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+<meta charset='utf-8' />
+<title>BenchmarkTests-20221013-200946</title>
+
+<style type="text/css">
+	table { border-collapse: collapse; display: block; width: 100%; overflow: auto; }
+	td, th { padding: 6px 13px; border: 1px solid #ddd; text-align: right; }
+	tr { background-color: #fff; border-top: 1px solid #ccc; }
+	tr:nth-child(even) { background: #f8f8f8; }
+</style>
+</head>
+<body>
+<pre><code>
+BenchmarkDotNet=v0.13.2, OS=Windows 10 (10.0.19043.2130/21H1/May2021Update)
+Intel Core i7-8550U CPU 1.80GHz (Kaby Lake R), 1 CPU, 8 logical and 4 physical cores
+.NET SDK=6.0.302
+  [Host]     : .NET 6.0.7 (6.0.722.32202), X64 RyuJIT AVX2  [AttachedDebugger]
+  DefaultJob : .NET 6.0.7 (6.0.722.32202), X64 RyuJIT AVX2
+</code></pre>
+<pre><code></code></pre>
+
+<table>
+<thead><tr><th>                              Method</th><th> Mean</th><th>Error</th><th>StdDev</th><th>Median</th><th>Gen0</th><th>Gen1</th><th>Gen2</th><th>Allocated</th>
+</tr>
+</thead><tbody><tr><td>RETRAN_GET_EXPORT_API_TO_LOCAL_CSV_FILE</td><td>41,367.0 &mu;s</td><td>756.92 &mu;s</td><td>1,458.32 &mu;s</td><td>41,104.0 &mu;s</td><td>-</td><td>-</td><td>-</td><td>66.8 KB</td>
+</tr><tr><td>RETRAN_GET_EXPORT_API_TO_LOCAL_JSON_FILE</td><td>41,129.2 &mu;s</td><td>816.55 &mu;s</td><td>1,430.12 &mu;s</td><td>40,837.0 &mu;s</td><td>-</td><td>-</td><td>-</td><td>31.42 KB</td>
+</tr><tr><td>RETRAN_GET_EXPORT_API_TO_LOCAL_EXCEL_FILE</td><td>44,144.9 &mu;s</td><td>737.06 &mu;s</td><td>653.38 &mu;s</td><td>44,172.4 &mu;s</td><td>750.0000</td><td>166.6667</td><td>-</td><td>3854.27 KB</td>
+</tr><tr><td>RETRAN_MSSQL_DB_TO_EXPORT_LOCAL_JSON_FILE</td><td>869.9 &mu;s</td><td>31.28 &mu;s</td><td>89.24 &mu;s</td><td>852.8 &mu;s</td><td>15.6250</td><td>7.8125</td><td>-</td><td>63.98 KB</td>
+</tr><tr><td>RETRAN_MSSQL_DB_TO_EXPORT_LOCAL_CSV_FILE</td><td>1,724.3 &mu;s</td><td>91.87 &mu;s</td><td>265.06 &mu;s</td><td>1,659.4 &mu;s</td><td>29.2969</td><td>9.7656</td><td>-</td><td>125.14 KB</td>
+</tr><tr><td>RETRAN_MSSQL_DB_TO_EXPORT_LOCAL_EXCEL_FILE</td><td>5,955.8 &mu;s</td><td>235.46 &mu;s</td><td>690.57 &mu;s</td><td>5,578.6 &mu;s</td><td>937.5000</td><td>382.8125</td><td>-</td><td>4383.74 KB</td>
+</tr><tr><td>RETRAN_CONVERT_JSON_TO_CSV</td><td>4,278.0 &mu;s</td><td>79.26 &mu;s</td><td>186.82 &mu;s</td><td>4,257.5 &mu;s</td><td>351.5625</td><td>179.6875</td><td>93.7500</td><td>2051.53 KB</td>
+</tr><tr><td>RETRAN_CONVERT_CSV_TO_JSON</td><td>3,454.6 &mu;s</td><td>58.29 &mu;s</td><td>51.68 &mu;s</td><td>3,474.7 &mu;s</td><td>273.4375</td><td>164.0625</td><td>109.3750</td><td>1754.58 KB</td>
+</tr><tr><td>RETRAN_CONVERT_JSON_TO_EXCEL</td><td>3,797.4 &mu;s</td><td>70.49 &mu;s</td><td>65.93 &mu;s</td><td>3,781.7 &mu;s</td><td>796.8750</td><td>304.6875</td><td>-</td><td>3834.64 KB</td>
+</tr><tr><td>RETRAN_CREATE_CSV_FILE</td><td>366.6 &mu;s</td><td>6.71 &mu;s</td><td>5.60 &mu;s</td><td>367.9 &mu;s</td><td>-</td><td>-</td><td>-</td><td>1.01 KB</td>
+</tr><tr><td>RETRAN_CREATE_JSON_FILE</td><td>372.9 &mu;s</td><td>4.96 &mu;s</td><td>4.15 &mu;s</td><td>372.9 &mu;s</td><td>-</td><td>-</td><td>-</td><td>1.03 KB</td>
+</tr></tbody></table>
+</body>
+</html>
